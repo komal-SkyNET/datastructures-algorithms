@@ -14,7 +14,12 @@ class Tree:
 
     def __init__(self, root):
         self.root = root
-    
+"""                    
+                    1
+            2               3
+        4      5        6       7
+                     9     10      12
+"""
 
 node = Node(1)
 node.left = Node(2)
@@ -37,3 +42,6 @@ if __name__ == "__main__":
 
     print 'Post order'
     post_order(tree.root)
+
+    print 'Level order'
+    level_order(tree.root)
