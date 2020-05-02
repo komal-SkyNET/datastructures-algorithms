@@ -1,5 +1,6 @@
 """
 Avg_Runtime: 108ms
+https://leetcode.com/problems/largest-rectangle-in-histogram/
 """
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
